@@ -1,0 +1,21 @@
+name: SkypixelCore
+author: Pandaa
+main: Pandaa\Skypixel\Core
+api: 3.0.0
+version: 1.4.0
+descriptionn: "A lobbycore made for Skypixel Network"
+commands:
+  servers:
+    description: "opens server selector"
+  cosmetics:
+    description: "opens cosmetic menu"
+    permission: cosmetic.use
+  fly:
+    description: "allow players to fly in survival"
+    permission: fly.use
+  text1:
+    description: "spawns a text"
+    permission: text1.use
+  text2:
+    description: "spawns text number 2"
+    permission: text2.use
